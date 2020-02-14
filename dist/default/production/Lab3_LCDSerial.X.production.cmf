@@ -51,7 +51,7 @@ cstackBANK1 BANK1 1 A0 A0 2D 1
 bssBANK1 BANK1 1 CD CD 1C 1
 strings STRING 0 800 800 C1 2
 clrtext CODE 0 1936 1936 8 2
-$C:\Users\Josue\AppData\Local\Temp\s4rg.o
+$C:\Users\Josue\AppData\Local\Temp\sf4.o
 end_init CODE 0 0 0 3 2
 config CONFIG 0 2007 2007 2 2
 # %UNUSED Section
@@ -104,16 +104,16 @@ STRING 1800-1935 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Lab3_LCDSerial.X.production.o
-7F3 cinit CODE >952:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-7F3 cinit CODE >955:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-7F3 cinit CODE >996:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-7F4 cinit CODE >997:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-7F5 cinit CODE >998:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-7F6 cinit CODE >999:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-7F7 cinit CODE >1000:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-7FC cinit CODE >1006:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-7FC cinit CODE >1008:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-7FD cinit CODE >1009:C:\Users\Josue\AppData\Local\Temp\s4rg.s
+7F3 cinit CODE >952:C:\Users\Josue\AppData\Local\Temp\sf4.s
+7F3 cinit CODE >955:C:\Users\Josue\AppData\Local\Temp\sf4.s
+7F3 cinit CODE >996:C:\Users\Josue\AppData\Local\Temp\sf4.s
+7F4 cinit CODE >997:C:\Users\Josue\AppData\Local\Temp\sf4.s
+7F5 cinit CODE >998:C:\Users\Josue\AppData\Local\Temp\sf4.s
+7F6 cinit CODE >999:C:\Users\Josue\AppData\Local\Temp\sf4.s
+7F7 cinit CODE >1000:C:\Users\Josue\AppData\Local\Temp\sf4.s
+7FC cinit CODE >1006:C:\Users\Josue\AppData\Local\Temp\sf4.s
+7FC cinit CODE >1008:C:\Users\Josue\AppData\Local\Temp\sf4.s
+7FD cinit CODE >1009:C:\Users\Josue\AppData\Local\Temp\sf4.s
 198C text31 CODE >45:C:\Users\Josue\MPLABXProjects\Laboratorios Ditiall\Lab3_LCDSerial.X\Lib_LCD.c
 198C text31 CODE >46:C:\Users\Josue\MPLABXProjects\Laboratorios Ditiall\Lab3_LCDSerial.X\Lib_LCD.c
 198F text31 CODE >47:C:\Users\Josue\MPLABXProjects\Laboratorios Ditiall\Lab3_LCDSerial.X\Lib_LCD.c
@@ -924,16 +924,16 @@ FB text1 CODE >856:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\co
 1180 maintext CODE >120:C:\Users\Josue\MPLABXProjects\Laboratorios Ditiall\Lab3_LCDSerial.X\Lab3_LCDSerial.c
 1180 maintext CODE >122:C:\Users\Josue\MPLABXProjects\Laboratorios Ditiall\Lab3_LCDSerial.X\Lab3_LCDSerial.c
 1188 maintext CODE >123:C:\Users\Josue\MPLABXProjects\Laboratorios Ditiall\Lab3_LCDSerial.X\Lab3_LCDSerial.c
-1936 clrtext CODE >983:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-1936 clrtext CODE >984:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-1937 clrtext CODE >985:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-1937 clrtext CODE >986:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-1938 clrtext CODE >987:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-1939 clrtext CODE >988:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-193A clrtext CODE >989:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-193B clrtext CODE >990:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-193C clrtext CODE >991:C:\Users\Josue\AppData\Local\Temp\s4rg.s
-193D clrtext CODE >992:C:\Users\Josue\AppData\Local\Temp\s4rg.s
+1936 clrtext CODE >983:C:\Users\Josue\AppData\Local\Temp\sf4.s
+1936 clrtext CODE >984:C:\Users\Josue\AppData\Local\Temp\sf4.s
+1937 clrtext CODE >985:C:\Users\Josue\AppData\Local\Temp\sf4.s
+1937 clrtext CODE >986:C:\Users\Josue\AppData\Local\Temp\sf4.s
+1938 clrtext CODE >987:C:\Users\Josue\AppData\Local\Temp\sf4.s
+1939 clrtext CODE >988:C:\Users\Josue\AppData\Local\Temp\sf4.s
+193A clrtext CODE >989:C:\Users\Josue\AppData\Local\Temp\sf4.s
+193B clrtext CODE >990:C:\Users\Josue\AppData\Local\Temp\sf4.s
+193C clrtext CODE >991:C:\Users\Josue\AppData\Local\Temp\sf4.s
+193D clrtext CODE >992:C:\Users\Josue\AppData\Local\Temp\sf4.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -962,11 +962,11 @@ __Hstrings 0 0 ABS 0 strings -
 _config_Serial 32BE 0 CODE 0 text23 dist/default/production\Lab3_LCDSerial.X.production.o
 _Cont D8 0 BANK1 1 bssBANK1 dist/default/production\Lab3_LCDSerial.X.production.o
 _Pots D5 0 BANK1 1 bssBANK1 dist/default/production\Lab3_LCDSerial.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Josue\AppData\Local\Temp\s4rg.o
+___sp 0 0 STACK 2 stack C:\Users\Josue\AppData\Local\Temp\sf4.o
 _comp D7 0 BANK1 1 bssBANK1 dist/default/production\Lab3_LCDSerial.X.production.o
 _main 201C 0 CODE 0 maintext dist/default/production\Lab3_LCDSerial.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\Lab3_LCDSerial.X.production.o
-start 0 0 CODE 0 init C:\Users\Josue\AppData\Local\Temp\s4rg.o
+start 0 0 CODE 0 init C:\Users\Josue\AppData\Local\Temp\sf4.o
 ___flmul@aexp 36 0 BANK0 1 cstackBANK0 dist/default/production\Lab3_LCDSerial.X.production.o
 ___flmul@bexp 37 0 BANK0 1 cstackBANK0 dist/default/production\Lab3_LCDSerial.X.production.o
 ___flmul@prod 38 0 BANK0 1 cstackBANK0 dist/default/production\Lab3_LCDSerial.X.production.o
@@ -995,12 +995,12 @@ __end_of__npowers_ 10F0 0 STRING 0 strings dist/default/production\Lab3_LCDSeria
 _sprintf$1053 B0 0 BANK1 1 cstackBANK1 dist/default/production\Lab3_LCDSerial.X.production.o
 __end_of_LCD_CHAR 329A 0 CODE 0 text28 dist/default/production\Lab3_LCDSerial.X.production.o
 __end_of_LCD_DATO 3360 0 CODE 0 text31 dist/default/production\Lab3_LCDSerial.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\s4rg.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\s4rg.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\s4rg.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\s4rg.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\s4rg.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\s4rg.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sf4.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sf4.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sf4.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sf4.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sf4.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sf4.o
 __size_of__div_to_l_ 0 0 ABS 0 - dist/default/production\Lab3_LCDSerial.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\Lab3_LCDSerial.X.production.o
 ___llmod@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production\Lab3_LCDSerial.X.production.o
@@ -1053,8 +1053,8 @@ __end_of___lwmod 3552 0 CODE 0 text7 dist/default/production\Lab3_LCDSerial.X.pr
 __size_of_isdigit 0 0 ABS 0 - dist/default/production\Lab3_LCDSerial.X.production.o
 __CFG_FOSC$INTRC_CLKOUT 0 0 ABS 0 - dist/default/production\Lab3_LCDSerial.X.production.o
 __Umul8_16@multiplicand 70 0 COMMON 1 cstackCOMMON dist/default/production\Lab3_LCDSerial.X.production.o
-___stackhi 0 0 ABS 0 - C:\Users\Josue\AppData\Local\Temp\s4rg.o
-___stacklo 0 0 ABS 0 - C:\Users\Josue\AppData\Local\Temp\s4rg.o
+___stackhi 0 0 ABS 0 - C:\Users\Josue\AppData\Local\Temp\sf4.o
+___stacklo 0 0 ABS 0 - C:\Users\Josue\AppData\Local\Temp\sf4.o
 _dpowers 10F0 0 STRING 0 strings dist/default/production\Lab3_LCDSerial.X.production.o
 _BAUDCTLbits 187 0 ABS 0 - dist/default/production\Lab3_LCDSerial.X.production.o
 __size_of__tdiv_to_l_ 0 0 ABS 0 - dist/default/production\Lab3_LCDSerial.X.production.o
@@ -1087,7 +1087,7 @@ __tdiv_to_l_@f2 74 0 COMMON 1 cstackCOMMON dist/default/production\Lab3_LCDSeria
 _LCD_iniciar 1182 0 CODE 0 text26 dist/default/production\Lab3_LCDSerial.X.production.o
 _isdigit$877 70 0 COMMON 1 cstackCOMMON dist/default/production\Lab3_LCDSerial.X.production.o
 __end_of_LCD_CLEAR 3318 0 CODE 0 text30 dist/default/production\Lab3_LCDSerial.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Josue\AppData\Local\Temp\s4rg.o
+___int_sp 0 0 STACK 2 stack C:\Users\Josue\AppData\Local\Temp\sf4.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -1154,7 +1154,7 @@ _config_PORTS 33F2 0 CODE 0 text24 dist/default/production\Lab3_LCDSerial.X.prod
 __Lintentry 0 0 CODE 0 intentry -
 ___lldiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\Lab3_LCDSerial.X.production.o
 __stringtab 1000 0 STRING 0 strings dist/default/production\Lab3_LCDSerial.X.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Josue\AppData\Local\Temp\s4rg.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Josue\AppData\Local\Temp\sf4.o
 __end_of___xxtofl 3D0A 0 CODE 0 text13 dist/default/production\Lab3_LCDSerial.X.production.o
 __powers_ 1020 0 STRING 0 strings dist/default/production\Lab3_LCDSerial.X.production.o
 __size_of___fleq 0 0 ABS 0 - dist/default/production\Lab3_LCDSerial.X.production.o

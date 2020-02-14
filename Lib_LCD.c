@@ -1,8 +1,8 @@
 /*
- * File:   Lib_LCD.c
- * Author: Andres Sierra
- *
- * Created on 8 de febrero de 2020, 08:52 PM
+ * File:   LAB3_LCD_USART.c
+ * Author: Josue Castillo Lou
+ * Carné:  17169
+ * LAB3: Uso de LCD con Librería y USART_PC
  */
 
 #define RS RA3
